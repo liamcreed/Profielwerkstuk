@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+main {
+    margin: 0 auto;
+    padding: 5vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+
+    background-color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: indigo;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+h4
+{
+    font-size: 1.2em;
+    text-align: center;
+}
+h5
+{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-weight:bold;
+    font-style: italic;
+}
+
+nav {
+    line-height: 150%;
+}
+
+nav ul {
+    padding-left: 1.2em;
+}
+
+hr {
+    background-color: black;
+    border-radius: 10px;
+    height: 0.1em;
+    border: 0;
+}
+
+audio {
+    padding: 0;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.audio_tekst {
+    text-align: center;
+}
