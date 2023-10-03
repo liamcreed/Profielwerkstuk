@@ -6,14 +6,52 @@ body {
     padding: 0;
     margin: 0;
 }
+
 main {
     margin: 0 auto;
-    padding: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     padding-left: 20vw;
     padding-right: 20vw;
 
     background-color: white;
 }
+
+@media (max-width: 1200) {
+    main {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+}
+@media (max-width: 768px) {
+    main {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+@media (max-width: 480px) {
+    main {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+
 
 p {
     text-align: justify;
@@ -32,6 +70,11 @@ h1 {
     font-size: 4em;
     text-align: center;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+}
 
 h2 {
     text-align: center;
@@ -42,18 +85,18 @@ h3 {
     font-size: 1.5em;
     text-align: center;
 }
-h4
-{
+
+h4 {
     font-size: 1.2em;
     text-align: center;
 }
-h5
-{
+
+h5 {
     padding: 0;
     margin: 0;
     padding-bottom: 0.5em;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
     font-style: italic;
 }
 
