@@ -8,16 +8,17 @@ body {
 }
 
 main {
+    font-family:'Times New Roman', Times, serif;
     margin: 0 auto;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
 
     background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
     main {
         padding-top: 5vh;
         padding-bottom: 5vh;
@@ -113,12 +114,11 @@ hr {
     border: 0;
 }
 
-audio {
-    padding: 0;
-    padding-top: 1em;
+
+.audio_bijlage audio {
     width: 100%;
 }
-
-.audio_tekst {
-    text-align: center;
+.audio_bijlage {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
