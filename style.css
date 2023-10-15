@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0 auto;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -18,8 +18,9 @@ main {
 
     background-color: rgb(255, 255, 255);
 }
-img{
-   max-width: 100%;
+
+img {
+    max-width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -41,6 +42,7 @@ img{
         width: 70vw;
     }
 }
+
 @media (max-width: 768px) {
     main {
         padding-top: 2vh;
@@ -50,6 +52,7 @@ img{
         width: 80vw;
     }
 }
+
 @media (max-width: 480px) {
     main {
         padding-top: 2vh;
@@ -62,9 +65,7 @@ img{
 
 
 
-p {
-   
-}
+p {}
 
 a {
     text-decoration: none;
@@ -79,6 +80,7 @@ h1 {
     font-size: 4em;
     text-align: center;
 }
+
 @media (max-width: 768px) {
     h1 {
         font-size: 3em;
@@ -100,8 +102,8 @@ h4 {
     margin-bottom: -1.0em;
 }
 
-h3,h4
-{
+h3,
+h4 {
     margin: 0;
     padding: 0;
     padding-top: 1em;
@@ -123,10 +125,18 @@ hr {
 }
 
 
+.video_bijlage video {
+    width: 100%;
+}
+
 .audio_bijlage audio {
     width: 100%;
 }
-.audio_bijlage {
+
+.audio_bijlage,
+.video_bijlage {
+    font-style: italic;
+    text-align: center;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
