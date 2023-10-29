@@ -1,0 +1,19 @@
+<div class="video_bijlage">
+    <video controls src=""></video>
+    <div>Videofragment</div>
+</div>
+<div class="audio_bijlage">
+    <audio controls src="Media/Muziek/Halloween Thema.mp3"></audio>
+    <div><a href="" target="_blank">Halloween (1978)</a> thema mineur</div>
+</div>
+
+<div class="video_bijlage">
+    <video controls src=""></video>
+    <div>Scene uit <a href="" target="_blank">Jaws (1975)</a> met het thema (John Williams) in mineur</div>
+</div>
+<div class="video_bijlage">
+    <video controls src=""></video>
+    <div>Scene uit <a href="" target="_blank">Jaws (1975)</a> met het thema (John Williams) in majeur</div>
+</div>
+
+ONTHOUDEN: Referenties naar mensen als je iets zegt
