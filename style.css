@@ -1,5 +1,5 @@
 :root {
-    --border_radius: 2px;
+    --border_radius: 0px;
 }
 
 html {
@@ -166,17 +166,23 @@ img {
     padding: 0.5em;
 }
 
+.bijlage video
+{
+    aspect-ratio: 2.4;
+    border-radius: var(--border_radius);
+    background-color: rgb(222, 222, 222);
+}
 
 .bijlage iframe {
     margin: 0;
     padding: 0;
     aspect-ratio: 2.4;
     border-radius: var(--border_radius);
-    background-color: black;
+    background-color: rgb(161, 161, 161);
     transition-duration: 800ms;
 }
 
-.bijlage iframe, .bijlage audio {
+.bijlage iframe, .bijlage audio, .bijlage video {
     width: calc(100% - 0.5em);
     margin-bottom: 0.5em;
 }
