@@ -163,7 +163,10 @@ img {
     outline: 1px  rgb(222, 222, 222) solid;
     border-radius: var(--border_radius);
    
-    padding: 0.5em;
+    padding: 10px;
+    padding-top: 14px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .bijlage video
@@ -174,8 +177,7 @@ img {
 }
 
 .bijlage iframe {
-    margin: 0;
-    padding: 0;
+    
     aspect-ratio: 2.4;
     border-radius: var(--border_radius);
     background-color: rgb(161, 161, 161);
