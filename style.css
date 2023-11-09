@@ -108,9 +108,9 @@ h5 {
     text-align: left;
     margin: 0;
     padding: 0;
-    padding-top: 1em;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin-top: -0.5em;
+
 }
 
 h2 {
@@ -125,7 +125,6 @@ h3 {
 
 h4 {
     font-size: 1.2em;
-    margin-bottom: -1.0em;
 }
 
 h5 {
@@ -160,13 +159,12 @@ img {
     text-align: center;
 
     background-color: rgb(244, 244, 244);
-    outline: 1px  rgb(222, 222, 222) solid;
+    border: 1px  rgb(222, 222, 222) solid;
     border-radius: var(--border_radius);
    
     padding: 10px;
-    padding-top: 14px;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .bijlage video
