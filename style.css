@@ -4,7 +4,6 @@
 
 html {
     scroll-behavior: smooth;
-    
 }
 
 body {
@@ -70,7 +69,13 @@ p,
 nav {
     text-align: left;
     font-size: 1.0em;
+    line-height: 1.5;
 }
+
+nav ul {
+    padding-left: 1.2em;
+}
+
 
 
 a {
@@ -102,12 +107,19 @@ h6 {
     font-weight: normal;
 }
 
+h2{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+
 h3,
 h4,
 h5 {
     text-align: left;
     margin: 0;
     padding: 0;
+    padding-top: 1em;
 }
 
 h2 {
@@ -126,16 +138,6 @@ h4 {
 
 h5 {
     font-size: 1em;
-}
-
-
-
-nav {
-    line-height: 150%;
-}
-
-nav ul {
-    padding-left: 1.2em;
 }
 
 hr {
@@ -170,26 +172,7 @@ img {
     background-color: rgb(0, 0, 0);
 }
 
-.bijlage iframe, .bijlage audio, .bijlage video, img {
+.bijlage iframe, .bijlage audio, .bijlage video, .bijlage img {
     width: 100%;
     margin-bottom: 0.5em; 
 }
-
-/* 
-@media (min-width: 600px) {
-    .video_bijlagen {
-        padding: 0;
-        margin: 0;
-        border: 1px  rgb(222, 222, 222) solid;
-        display: flex;
-        justify-content:space-between;
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    .video_bijlagen .bijlage{
-        width: 50%;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        border: 0px;
-    }
-} */
